@@ -1,28 +1,29 @@
-# 🔥 Calcora: A Smart Calculator with AI 💻
-A smart, beautiful, and feature-rich calculator that supports natural language input and math expressions.
+# ✨ CALCORA v2.1 - Smart Terminal Calculator ✨: Automate Your Math
+A Python-based smart calculator that utilizes ANSI colors for a visually appealing output.
 
 ## Features
-• Supports natural language input and math expressions
-• Includes memory (ans, variables) for storing calculations
-• Keeps a history of past calculations with navigation capabilities
-• Offers scientific functions and error handling
-• Displays colorful terminal UI
+* Uses local AI for calculations without internet connectivity or API keys.
+* Supports basic math operations and functions (e.g., `sin`, `cos`, `tan`).
+* Provides color-coded output using ANSI escape sequences.
 
 ## Installation
 ```
-pip install Calcora
+pip install git+https://github.com/Ollama/test-3.git
 ```
 
 ## Usage
 Example commands:
-* `calcora 2+3` to perform a basic arithmetic operation
-* `calcora sin(45)` to calculate the sine of an angle
-* `calcora mem` to view stored calculations
+```bash
+$ python Calcora.py 2 + 3 * sin(45)
+$ python Calcora.py sqrt(100) - 5 / 2
+```
 
 ## Project Structure
+```
 Calcora/
 ├── Calcora.py
 └── gitpush.py
+```
 
 ## License
-MIT
+MIT License
